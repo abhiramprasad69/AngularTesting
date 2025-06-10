@@ -1,0 +1,161 @@
+INSERT INTO Regions (RegionName, CreatedBy, CreatedAt)
+VALUES
+('UK', 1, GETUTCDATE()),
+('APAC', 1, GETUTCDATE()),
+('Japan', 1, GETUTCDATE()),
+('EUR', 1, GETUTCDATE()),
+('ANZ', 1, GETUTCDATE()),
+('MENA', 1, GETUTCDATE()),
+('US', 1, GETUTCDATE()),
+('REST', 1, GETUTCDATE());
+
+
+INSERT INTO Countries (CountryName, CreatedBy, CreatedAt) 
+VALUES
+('AUS', 1, GETUTCDATE()),
+('Abu Dhabi', 1, GETUTCDATE()),
+('Bahrain', 1, GETUTCDATE()),
+('Brazil', 1, GETUTCDATE()),
+('Canada', 1, GETUTCDATE()),
+('Denmark', 1, GETUTCDATE()),
+('Dubai', 1, GETUTCDATE()),
+('France', 1, GETUTCDATE()),
+('Germany', 1, GETUTCDATE()),
+('India', 1, GETUTCDATE()),
+('Japan', 1, GETUTCDATE()),
+('Kuwait', 1, GETUTCDATE()),
+('Netherlands', 1, GETUTCDATE()),
+('New Zealand', 1, GETUTCDATE()),
+('Oman', 1, GETUTCDATE()),
+('Sharjah', 1, GETUTCDATE()),
+('Singapore', 1, GETUTCDATE()),
+('South Africa', 1, GETUTCDATE()),
+('Sweden', 1, GETUTCDATE()),
+('Switzerland', 1, GETUTCDATE()),
+('Thailand', 1, GETUTCDATE()),
+('UAE', 1, GETUTCDATE()),
+('UK', 1, GETUTCDATE()),
+('USA', 1, GETUTCDATE()),
+('Vietnam', 1, GETUTCDATE()),
+('Qatar', 1, GETUTCDATE());
+
+
+
+INSERT INTO Domains (DomainName, CreatedBy, CreatedAt) 
+VALUES 
+('Retail', 1, GETUTCDATE()),
+('Education', 1, GETUTCDATE()),
+('Financial Services', 1, GETUTCDATE()),
+('Insurance', 1, GETUTCDATE()),
+('Mortgage', 1, GETUTCDATE()),
+('General', 1, GETUTCDATE()),
+('Port Management', 1, GETUTCDATE()),
+('Resource Management', 1, GETUTCDATE()),
+('Skill Management', 1, GETUTCDATE()),
+('Health', 1, GETUTCDATE()),
+('Digital Transformation', 1, GETUTCDATE()),
+('Supply Chain', 1, GETUTCDATE()),
+('Ecommerce', 1, GETUTCDATE()),
+('Testing', 1, GETUTCDATE()),
+('Food', 1, GETUTCDATE()),
+('Training', 1, GETUTCDATE()),
+('Warehousing', 1, GETUTCDATE()),
+('Others', 1, GETUTCDATE()),
+('Travel', 1, GETUTCDATE()),
+('Software', 1, GETUTCDATE()),
+('EdTech', 1, GETUTCDATE()),
+('Construction', 1, GETUTCDATE()),
+('Banking and Finance', 1, GETUTCDATE()),
+('Automotive', 1, GETUTCDATE()),
+('EduTech', 1, GETUTCDATE()),
+('Sustainability', 1, GETUTCDATE()),
+('Hospitality', 1, GETUTCDATE()),
+('Logistics', 1, GETUTCDATE()),
+('FinTech', 1, GETUTCDATE()),
+('Transportation', 1, GETUTCDATE()),
+('Networking', 1, GETUTCDATE()),
+('Marketing', 1, GETUTCDATE()),
+('HRMS', 1, GETUTCDATE()),
+('Digital Marketing', 1, GETUTCDATE()),
+('Aviation', 1, GETUTCDATE()),
+('Agriculture', 1, GETUTCDATE()),
+('Hightech', 1, GETUTCDATE()),
+('Engineering Services', 1, GETUTCDATE()),
+('Utility', 1, GETUTCDATE()),
+('BFSI', 1, GETUTCDATE()),
+('Embedded', 1, GETUTCDATE()),
+('BMC', 1, GETUTCDATE()),
+('Construction & Property Management', 1, GETUTCDATE()),
+('Miscellaneous', 1, GETUTCDATE()),
+('Healthcare', 1, GETUTCDATE()),
+('Travel & Hospitality', 1, GETUTCDATE()),
+('Data & AI', 1, GETUTCDATE()),
+('InsurTech', 1, GETUTCDATE()),
+('eCommerce', 1, GETUTCDATE());
+
+
+INSERT INTO ServiceLines (ServiceName, CreatedBy, CreatedAt)
+VALUES
+('Strategy & Consulting', 1, GETUTCDATE()),
+('Quality Engineering', 1, GETUTCDATE()),
+('Experience Design', 1, GETUTCDATE()),
+('Application Development', 1, GETUTCDATE()),
+('Cloud Services', 1, GETUTCDATE()),
+('Data & Analytics', 1, GETUTCDATE()),
+('AI & Machine Learning', 1, GETUTCDATE()),
+('Cybersecurity', 1, GETUTCDATE()),
+('DevOps', 1, GETUTCDATE()),
+('Digital Transformation', 1, GETUTCDATE()),
+('Product Engineering', 1, GETUTCDATE()),
+('Enterprise Solutions', 1, GETUTCDATE()),
+('Infrastructure Management', 1, GETUTCDATE()),
+('Business Process Services', 1, GETUTCDATE()),
+('IT Consulting', 1, GETUTCDATE()),
+('Managed Services', 1, GETUTCDATE()),
+('Platform Services', 1, GETUTCDATE()),
+('Testing & Automation', 1, GETUTCDATE());
+
+
+INSERT INTO Accounts (AccountName, CreatedBy, CreatedAt) 
+VALUES 
+('Knitt', 1, GETUTCDATE()),
+('TechNova', 1, GETUTCDATE()),
+('InnovaSoft', 1, GETUTCDATE()),
+('BlueWave Solutions', 1, GETUTCDATE()),
+('SkyNet Global', 1, GETUTCDATE()),
+('NexGen IT', 1, GETUTCDATE()),
+('AlphaCore Systems', 1, GETUTCDATE()),
+('FutureWare', 1, GETUTCDATE()),
+('BrightEdge Technologies', 1, GETUTCDATE()),
+('CloudScape Inc.', 1, GETUTCDATE()),
+('Quantum Leap', 1, GETUTCDATE()),
+('HyperNet Solutions', 1, GETUTCDATE()),
+('Visionary Tech', 1, GETUTCDATE()),
+('Zenith AI', 1, GETUTCDATE()),
+('OrbitSoft', 1, GETUTCDATE());
+
+
+
+INSERT INTO IndustrialVerticals (IndustryName, CreatedBy, CreatedAt) 
+VALUES 
+('Retail & E-Commerce', 1, GETUTCDATE()),
+('Insurance', 1, GETUTCDATE()),
+('Banking & Financial Services', 1, GETUTCDATE()),
+('Healthcare', 1, GETUTCDATE()),
+('Pharmaceuticals', 1, GETUTCDATE()),
+('Telecommunications', 1, GETUTCDATE()),
+('Manufacturing', 1, GETUTCDATE()),
+('Automotive', 1, GETUTCDATE()),
+('Education', 1, GETUTCDATE()),
+('Media & Entertainment', 1, GETUTCDATE()),
+('Travel & Hospitality', 1, GETUTCDATE()),
+('Logistics & Supply Chain', 1, GETUTCDATE()),
+('Energy & Utilities', 1, GETUTCDATE()),
+('Public Sector', 1, GETUTCDATE()),
+('Real Estate', 1, GETUTCDATE()),
+('Construction', 1, GETUTCDATE()),
+('Agriculture', 1, GETUTCDATE()),
+('Aerospace & Defense', 1, GETUTCDATE()),
+('Oil & Gas', 1, GETUTCDATE()),
+('Non-Profit', 1, GETUTCDATE());
+
